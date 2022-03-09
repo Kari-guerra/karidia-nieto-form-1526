@@ -1,0 +1,49 @@
+
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Form Validation</title>
+        <!-- Google Fonts -->
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&family=Vollkorn:ital,wght@0,400;0,500;0,700;1,400;1,700&display=swap" rel="stylesheet">
+        <!-- My Styles -->
+        <link rel="stylesheet" href="css/style.css">
+    </head>
+    <body>
+        <!-- Main -->
+        <main>
+            <section class="contact">
+                <h1>Form Validation</h1>
+            </section>
+            <!-- Form -->
+            <form>
+                <div class="wrapper">
+                    <div class="box-1">
+                        <label for="full-name">Full name</label><br>
+                        <input type="text" id="fullname" name="fullname" value=""><br>
+                    </div>
+                    <div class="box-2">
+                        <label for="email">E-mail Address </label><br>
+                        <input type="text" id="email" name="email" value=""><br>
+                    </div>
+                </div>
+                <div class="wrapper">
+                    <div class="box-3">
+                        <label for="message">Message</label><br>
+                        <textarea type="text" id="message" name="message" value=" "></textarea><br>
+                    </div>
+                </div>
+                <!-- Submit button -->
+                <input type="submit" name="submit-button" id="submit-button" value="Submit">
+            </form>
+        </main>
+        <!-- END OF main -->   
+        <!-- JS -->
+        <script src="./js/index.js"></script>
+        <!-- END OF JS -->
+    </body>
+</html>
